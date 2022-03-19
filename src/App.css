@@ -1,0 +1,15 @@
+:root {
+  --color-1: rgb(41, 45, 62);
+  --color-2: #fff;
+  --color-3: #4d4d4d;
+  --color-4: #fffe;
+}
+
+body {
+  background-color: var(--color-4);
+}
+
+body.dark-mode {
+  --color-4: #000;
+  --color-3: #fffe;
+}
